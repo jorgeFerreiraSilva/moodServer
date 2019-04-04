@@ -34,7 +34,7 @@ app.use(passport.session());
 
 app.use(cors({
   credentials: true,
-  origin: ['http://localhost:3000, https://mood-board-pin.herokuapp.com/, http://192.168.15.53']
+  origin: ['http://localhost:3000, http://mood-board-pin.herokuapp.com, http://192.168.15.53']
 }));
 
 const authRoutes = require('../endpoints/auth-routes');
